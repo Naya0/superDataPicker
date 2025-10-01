@@ -1,0 +1,95 @@
+export const weekDays = {
+  ru: {
+    full: [
+      "Понедельник",
+      "Вторник",
+      "Среда",
+      "Четверг",
+      "Пятница",
+      "Суббота",
+      "Воскресенье",
+    ],
+    short: ["пн", "вт", "ср", "чт", "пт", "сб", "вс"],
+  },
+  en: {
+    full: [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+    ],
+    short: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+  },
+};
+
+export const months = {
+  ru: {
+    full: [
+      "Январь",
+      "Февраль",
+      "Март",
+      "Апрель",
+      "Май",
+      "Июнь",
+      "Июль",
+      "Август",
+      "Сентябрь",
+      "Октябрь",
+      "Ноябрь",
+      "Декабрь",
+    ],
+    short: [
+      "янв.",
+      "фев.",
+      "март",
+      "апр.",
+      "май",
+      "июнь",
+      "июль",
+      "авг.",
+      "сент.",
+      "окт.",
+      "нояб.",
+      "дек.",
+    ],
+  },
+  en: {
+    full: [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December",
+    ],
+    short: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ],
+  },
+};
+
+export const fastDayNameRU = {
+  yesterday: "Вчера",
+  today: "Сегодня",
+  tomorrow: "Завтра",
+};
