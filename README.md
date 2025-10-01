@@ -15,7 +15,7 @@
 
 ```bash
 git clone https://github.com/Naya0/superDataPicker.git
-cd superdatapicker
+cd superDataPicker
 npm install
 
 ```
