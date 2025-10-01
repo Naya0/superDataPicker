@@ -1,0 +1,72 @@
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+  background: var(--background-base);
+}
+
+h1,
+h2,
+p,
+span {
+  color: var(--color-base);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--color-base);
+
+  border: none;
+  background: transparent;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background: var(--background-active-item);
+  color: var(--color-active-item);
+  opacity: 0.7;
+}
+
+.btn.active {
+  background: var(--background-active-item);
+  color: var(--color-active-item);
+}
+
+.instruction-list {
+  width: 800px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin: 30px 10px;
+}
+
+.instruction-list span {
+  font-weight: 800;
+}

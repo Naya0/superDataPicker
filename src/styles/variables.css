@@ -1,0 +1,29 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: dark light;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --background-base: #242424;
+  --background-active-item: rgb(79 78 78);
+  --background-table: rgb(43, 43, 43);
+  --color-active-item: rgb(212, 212, 212);
+  --color-base: rgba(255, 255, 255, 0.87);
+  --color-secondary: rgba(128, 128, 128, 0.87);
+  --border-color: rgb(138, 138, 138);
+}
+
+[data-theme="light"] {
+  --background-base: #ffffff;
+  --background-active-item: #a391fd;
+  --color-active-item: rgb(212, 212, 212);
+  --color-base: rgba(34, 34, 34, 0.87);
+  --color-secondary: rgba(128, 128, 128, 0.87);
+  --background-table: rgb(233, 233, 233);
+
+}
